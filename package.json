@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-     "start": "nodemon app.js",
+    "start": "nodemon app.js",
     "docker": "docker-compose up",
     "mongo": "docker exec -it 2store_api-mongo-1 bash"
   },
