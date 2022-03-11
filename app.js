@@ -1,5 +1,7 @@
 require("./db/mongo");
-const PORT = 5000;
+require("express-async-errors");
+
+const PORT = 3000;
 const express = require("express");
 const app = express();
 
